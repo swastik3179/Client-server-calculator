@@ -31,7 +31,7 @@ public class Calc_Client
 
 			String inp = sc.nextLine(); 
 
-			if (inp.equals("bye")) 
+			if (inp.equals("end")) 
 				break; 
 
 			// send the equation to server 
