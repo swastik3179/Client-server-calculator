@@ -29,7 +29,7 @@ public class server
 			// wait for input 
 			String input = dis.readUTF(); 
 
-			if(input.equals("bye")) 
+			if(input.equals("end")) 
 				break; 
 
 			System.out.println("Equation received:-" + input); 
